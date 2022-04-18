@@ -6,6 +6,7 @@ The paper proposes a hybrid SFANC-FxNLMS approach to overcome the adaptive algor
 
 
 Platform: NVIDIA-SMI 466.47, Driver Version: 466.47, CUDA Version: 11.3
+
 Environment: Jupyter Notebook 6.4.5, Python 3.9.7, Pytorch 1.10.1
 
 
@@ -27,6 +28,6 @@ If you find the hybrid SFANC-FxNLMS algorithm useful in your research, please co
 
 
 Contact Information:
-Authors: Zhengding Luo, Dongyuan Shi, Woon-Seng Gan
+Zhengding Luo, Dongyuan Shi.
 The School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore.
 (e-mail: LUOZ0021@e.ntu.edu.sg; dongyuan.shi@ntu.edu.sg)
