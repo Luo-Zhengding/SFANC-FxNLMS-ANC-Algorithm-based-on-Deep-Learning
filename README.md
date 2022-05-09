@@ -24,7 +24,15 @@ The real noises are provided in "Real Noise Examples/"
 
 
 Citation: 
-If you find the hybrid SFANC-FxNLMS algorithm useful in your research, please consider citing.
+If you find the hybrid SFANC-FxNLMS algorithm useful in your research, please consider citing:
+@ARTICLE{9761749,
+  author={Luo, Zhengding and Shi, Dongyuan and Gan, Woon-Seng},
+  journal={IEEE Signal Processing Letters}, 
+  title={A Hybrid SFANC-FxNLMS Algorithm for Active Noise Control Based on Deep Learning}, 
+  year={2022},
+  volume={29},
+  pages={1102-1106},
+  doi={10.1109/LSP.2022.3169428}}
 
 
 Contact Information:
