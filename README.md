@@ -1,6 +1,7 @@
 # A-Hybrid-SFANC-FxNLMS-Algorithm
 Description：
 This is the code of SPL paper "A Hybrid SFANC-FxNLMS Algorithm for Active Noise Control based on Deep Learning".
+You can find the paper at https://arxiv.org/submit/4451527/view or at IEEE Xplore.
 The paper proposes a hybrid SFANC-FxNLMS approach to overcome the adaptive algorithm's slow convergence and provide a better noise reduction level than the SFANC method. A lightweight one-dimensional convolutional neural network (1D CNN) is designed to automatically select the most suitable pre-trained control filter for each frame of the primary noise. Meanwhile, the FxNLMS algorithm continues to update the coefficients of the chosen pre-trained control filter at the sampling rate.
 ![Fig1_00](https://user-images.githubusercontent.com/95018034/163777818-985cac62-74fb-4585-84d4-c4d9b29fc0e6.png)
 
