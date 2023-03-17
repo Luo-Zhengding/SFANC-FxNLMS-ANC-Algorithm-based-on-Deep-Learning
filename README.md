@@ -16,9 +16,9 @@ Run Instructions:
 1. Training and tesing 1D network used for classifying noises:
 run "Train_Testing_1D_Network.ipynb"
 
-To train the 1D CNN model, we generated 80,000 broadband noise tracks with various frequency bands, amplitudes, and background noise levels at random. Each track has a duration of 1 second.
-The synthetic noise dataset was subdivided into three subsets: 80,000 noise tracks for training, 2,000 noise tracks for validation, and 2,000 noise tracks for testing.
-The trained 1D model is stored in "Trained models/model.pth"
+To train the 1D CNN model, we generated 80,000 broadband noise tracks with various frequency bands, amplitudes, and background noise levels at random. Each track has a duration of 1 second. The synthetic noise dataset was subdivided into three subsets: 80,000 noise tracks for training, 2,000 noise tracks for validation, and 2,000 noise tracks for testing. The entire dataset is available at https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/ETJWLU
+
+If you don't want to train the model. The trained 1D model stored in "Trained models/model.pth" can be used directly.
 
 2. Active noise control based on the proposed hybrid SFANC-FxNLMS algorithm on real-record noises.
 run "SFANC-FxNLMS for ANC.ipynb"
