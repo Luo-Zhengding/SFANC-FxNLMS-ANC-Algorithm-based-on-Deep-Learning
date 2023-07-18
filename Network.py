@@ -132,37 +132,7 @@ class CNNRes(torch.nn.Module):
         return out
 
 
-m3 = CNN(channels = [[256], [256]],
-         conv_kernels = [80, 3],
-         conv_strides = [4, 1],
-         conv_padding = [38, 1],
-         pool_padding = [0, 0])
-
-m5 = CNN(channels = [[128], [128], [256], [512]],
-         conv_kernels = [80, 3, 3, 3],
-         conv_strides = [4, 1, 1, 1],
-         conv_padding = [38, 1, 1, 1],
-         pool_padding = [0, 0, 0, 2])
-
-m11 = CNN(channels = [[64], [64]*2, [128]*2, [256]*3, [512]*2],
-          conv_kernels = [80, 3, 3, 3, 3],
-          conv_strides = [4, 1, 1, 1, 1],
-          conv_padding = [38, 1, 1, 1, 1],
-          pool_padding = [0, 0, 0, 2])
-
-m18 = CNN(channels = [[64], [64]*4, [128]*4, [256]*4, [512]*4],
-          conv_kernels = [80, 3, 3, 3, 3],
-          conv_strides = [4, 1, 1, 1, 1],
-          conv_padding = [38, 1, 1, 1, 1],
-          pool_padding = [0, 0, 0, 2])
-
-m34_res = CNNRes(channels = [[48], [48]*3, [96]*4, [192]*6, [384]*3],
-          conv_kernels = [80, 3, 3, 3, 3],
-          conv_strides = [4, 1, 1, 1, 1],
-          conv_padding = [38, 1, 1, 1, 1],
-          pool_padding = [0, 0, 0, 2])
-
-m6_res = CNNRes(channels = [[128], [128]*2],
+network = CNNRes(channels = [[128], [128]*2],
          conv_kernels = [80, 3],
          conv_strides = [4, 1],
          conv_padding = [38, 1],
