@@ -18,8 +18,7 @@ To train the 1D CNN model, we generated 80,000 broadband noise tracks with vario
 
 If you don't want to train the model. The trained 1D model stored in "Trained models/model.pth" can be used directly.
 
-2. Active noise control based on the proposed hybrid SFANC-FxNLMS algorithm on real-record noises.
-run "SFANC-FxNLMS for ANC.ipynb"
+Active noise control based on the proposed hybrid SFANC-FxNLMS algorithm on real-record noises. You can easily run "SFANC-FxNLMS for ANC.ipynb"
 The real noises are provided in "Real Noise Examples/"
 
 
