@@ -11,7 +11,7 @@ import numpy as np
 
 from MyDataLoader import MyNoiseDataset
 from Bcolors import bcolors
-from Network import network
+from Network import m6_res
 
 BATCH_SIZE = 250
 EPOCHS = 30
@@ -161,7 +161,7 @@ def Continue_Train_Validate_CNN(TRIAN_DATASET_FILE, VALIDATION_DATASET_FILE, Pre
     valid_dataloader = create_data_loader(valid_data, BATCH_SIZE)
     
     # set the model
-    model = network
+    model = m6_res
     model.apply(init_weights)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu') # begin from #0 gpu
     model = model.to(device)
