@@ -13,8 +13,6 @@ Environment: Jupyter Notebook 6.4.5, Python 3.9.7, Pytorch 1.10.1
 
 
 Run Instructions:
-1. Training and tesing 1D network used for classifying noises:
-run "Train_Testing_1D_Network.ipynb"
 
 To train the 1D CNN model, we generated 80,000 broadband noise tracks with various frequency bands, amplitudes, and background noise levels at random. Each track has a duration of 1 second. The synthetic noise dataset was subdivided into three subsets: 80,000 noise tracks for training, 2,000 noise tracks for validation, and 2,000 noise tracks for testing. The entire dataset is available at https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/ETJWLU
 
