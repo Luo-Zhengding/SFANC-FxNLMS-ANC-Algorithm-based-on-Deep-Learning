@@ -132,7 +132,7 @@ class CNNRes(torch.nn.Module):
         return out
 
 
-network = CNNRes(channels = [[128], [128]*2],
+m6_res = CNNRes(channels = [[128], [128]*2],
          conv_kernels = [80, 3],
          conv_strides = [4, 1],
          conv_padding = [38, 1],
