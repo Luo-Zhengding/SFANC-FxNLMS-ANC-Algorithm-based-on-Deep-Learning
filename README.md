@@ -33,8 +33,17 @@ If you find the hybrid SFANC-FxNLMS algorithm useful in your research, please co
   pages={1102-1106},
   doi={10.1109/LSP.2022.3169428}}
 
+## Related Publications
+1. **Real-time implementation and explainable AI analysis of delayless CNN-based selective fixed-filter active noise control**  
+   *Journal*: Mechanical Systems and Signal Processing, 2024, 214: 111364.  
+   *Paper Link*: [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0888327024002620) &nbsp; *Code Link*: [GitHub](https://github.com/Luo-Zhengding/SFANC-Window)
 
-Contact Information:
-Zhengding Luo, Dongyuan Shi.
-The School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore.
-(e-mail: LUOZ0021@e.ntu.edu.sg; dongyuan.shi@ntu.edu.sg)
+2. **Frequency-Direction Aware Multichannel Selective Fixed-Filter Active Noise Control based on Multi-Task Learning**  
+   *Journal*: IEEE Transactions on Audio, Speech and Language Processing, 2025, 33: 3137-3147.
+   *Paper Link*: [IEEE](https://ieeexplore.ieee.org/document/11082568) &nbsp; *Code Link*: [GitHub](https://github.com/Luo-Zhengding/Frequency-Direction-MCSFANC)
+
+3. **Performance Evaluation of Selective Fixed-filter Active Noise Control based on Different Convolutional Neural Networks**  
+   *Conference*: The 51st International Congress and Exposition on Noise Control Engineering (Inter-Noise 2022)
+   *Paper Link*: [arXiv](https://arxiv.org/pdf/2208.08440)
+
+**If you are interested in our works, please consider citing our papers. Thanks! Have a great day!**
